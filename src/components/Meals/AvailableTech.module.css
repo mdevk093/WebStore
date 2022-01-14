@@ -1,0 +1,34 @@
+.tech {
+  max-width: 60rem;
+  width: 90%;
+  margin: 2rem auto;
+  animation: tech-appear 1s ease-out forwards;
+}
+
+.tech ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes tech-appear {
+  from {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.ItemLoading {
+  text-align: center;
+  color: white;
+}
+
+.ItemError {
+  text-align: center;
+  color: red;
+}
